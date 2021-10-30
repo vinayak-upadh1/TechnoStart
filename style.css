@@ -29,19 +29,19 @@
 	position: relative;
 	height: 100%;
 	width:100%;
-	background: url('https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('https://www.consultancy.in/illustrations/news/spotlight/2020-10-01-192149707-technology-startup-india.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('https://images.pexels.com/photos/256937/pexels-photo-256937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('https://www.orfonline.org/wp-content/uploads/2021/06/Digital.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('https://images.pexels.com/photos/1064162/pexels-photo-1064162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background: url('https://www.striata.com/wp-content/uploads/2018/11/The-telco-space-is-prime-for-digital-reinvention.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;

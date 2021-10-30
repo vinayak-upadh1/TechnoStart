@@ -15,8 +15,11 @@
       type="text/css"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- style.css -->
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="a.css">
     <!-- jquery cdn -->
     <script
       type="text/javascript"
@@ -32,9 +35,30 @@
     
   </head>
   <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+          <div>
+              <a href="#" class="nav__logo">TechnoStart</a>
+          </div>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                  <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+              </ul>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+              <i class='bx bx-menu'></i>
+          </div>
+      </nav>
+  </header>
 
     
-
     <div class="container-fluid">
       <div class="row">
         <!-- slider banner	 -->
@@ -56,20 +80,20 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="info">
-                <h1>SLIDE ONE</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <h1>Techno Start</h1>
+                <p>Building the future with tech, gear, and software.</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="info">
-                <h1>SLIDE TWO</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <h1>Techno Start</h1>
+                <p>Building the future with tech, gear, and software.</p>
               </div>
             </div>
             <div class="carousel-item">
               <div class="info">
-                <h1>SLIDE THREE</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <h1>Techno Start</h1>
+                <p>Building the future with tech, gear, and software.</p>
               </div>
             </div>
           </div>
@@ -155,6 +179,62 @@
       </div>
 	</div>
 
+  <!--===== WORK =====-->
+  <section class="work section" id="work">
+    <h2 class="section-title">Work</h2>
+
+    <div class="work__container bd-grid">
+        <div class="work__img">
+            <figure class="captionEffect" data-effect="fade-in">
+                <a href="https://vinayak-upadh1.github.io/music.github.io/"><img src="img/work1.jpg" alt=""></a>
+                <figcaption>
+                  <h3>Listen Music</h3>
+                </figcaption>
+              </figure>
+        </div>
+        <div class="work__img">
+            <figure class="captionEffect" data-effect="fade-in">
+                <img src="img/work2.jpg" alt="">
+                <figcaption>
+                  <h3>Smartphone Features</h3>
+                </figcaption>
+              </figure>
+        </div>
+        <div class="work__img">
+            <figure class="captionEffect" data-effect="fade-in">
+                <img src="img/work3.jpg" alt="">
+                <figcaption>
+                  <h3>Taj Mahal Wikipidea Clone</h3>
+                </figcaption>
+              </figure>
+        </div>
+        <div class="work__img">
+            <figure class="captionEffect" data-effect="fade-in">
+                <img src="img/work4.jpg" alt="">
+                <figcaption>
+                  <h3>Jupiter-Mail</h3>
+                </figcaption>
+              </figure>
+        </div>
+        <div class="work__img">
+            <figure class="captionEffect" data-effect="fade-in">
+                <img src="img/work5.jpg" alt="">
+                <figcaption>
+                  <h3>Vaccination Drive</h3>
+                </figcaption>
+              </figure>
+        </div>
+        <div class="work__img">
+            <figure class="captionEffect" data-effect="fade-in">
+                <img src="img/work6.jpg" alt="">
+                <figcaption>
+                  <h3>Analogue Clock</h3>
+                </figcaption>
+              </figure>
+        </div>
+    </div>
+</section>
+
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -186,5 +266,6 @@
       type="text/javascript"
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
